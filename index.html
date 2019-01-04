@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <style>
+      .slider {
+          background: url("images/images.jpg");
+          height: 100vh;
+          background-size: cover;
+          background-position: center;
+      }
+  </style>
+
+
+    <title>Clase 13</title>
+  </head>
+  <body>
+    <section class="container-fluid slider d-flex justify-content-center align-items-center"> 
+      <h1 class="display-4 text-light">Victoria Parreño</h1>
+    </section>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+            <img src="images/home.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+          </a>
+          <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+            <div class="navbar-nav ml-auto mr-auto text-center">
+              <a class="nav-item nav-link active " href="#">Contacto</a>
+              <a class="nav-item nav-link" href="#">Tienda</a>
+              <a class="nav-item nav-link" href="#">Seccion</a>
+              <a class="nav-item nav-link disabled" href="#">Boton</a>
+            </div>
+          </div>
+          <section>
+          <button type="button" class="btn btn-outline-primary m-2">F</button>
+          <button type="button" class="btn btn-outline-danger">Y</button>
+          </section>
+    </nav>
+<section class="container mt-5 pt-5">
+    <div class="card-deck">
+        <div class="card">
+          <img src="Aroma.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+              <a href="#" class="btn btn-primary">Click</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Sillon.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+              <a href="#" class="btn btn-primary">Click</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Pileta.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+              <a href="#" class="btn btn-primary">Click</a>
+          </div>
+        </div>
+      </div>
+  </section>
+ 
+
+    <section class="container">
+      <p class="mt-5 pt-5 text-uppercase text-center font-weight-bold font-italic">Lorem ipsum dolor sit</p>
+      <p >El siguiente ejemplo muestra cómo crear una rejilla con las clases .col-md-*. En los dispositivos móviles (extra pequeño o pequeño) esta rejilla se muestra verticalmente, pero en un ordenador (medio o grande) se ve horizontalmente.</p>
+      <p>Si quieres transformar una rejilla de anchura fija en una rejilla de anchura variable que ocupa toda la anchura del navegador, reemplaza la clase CSS .container por .container-fluid en el elemento que encierra a todos los demás elementos de la rejilla:</p>
+      <p>The visibility property is not something we used very frequently, and certainly not on its own. If we are also using other CSS properties like positioning to achieve the layout we wanted for a certain element, we could then use visibility to hide that item initially, only to "turn" it back on hover. That is one possible use of this property, but again, it is not something we turn to with any frequency.</p>
+      <p>In the past, this method was used as a black-hat method to try to influence search engine rankings, so items that are not displayed could be a red flag for Google to look into why that approach is being used.</p>
+      <p>Bootstrap utiliza las siguientes media queries para establecer los diferentes puntos de ruptura en los que la rejilla se transforma para adaptarse a cada dispositivo.Bootstrap utiliza las siguientes media queries para establecer los diferentes puntos de ruptura en los que la rejilla se transforma para adaptarse a cada dispositivo.</p>
+      <p class="p-4 mb-2 bg-primary text-white text-center w-25 float-left mr-4 ">The visibility is not something y, for a certain element, we could then use visibility to hide that item initially, only to "turn" it back on hover. That is one possible use of this property, but again, it is not something we turn to with any frequency.</p>
+      <p>hides an element from the browser. However, that hidden element still takes up space in the layout. It's like you have basically made the element invisible, but it still remains in place and takes up the space it would have taken up had it been left alone.</p>
+      <p>Si no quieres que las columnas de la rejilla se muestren verticalmente en los dispositivos pequeños, utiliza a la vez las clases .col-xs-* y .col-md-*, tal y como muestra el siguiente ejemplo.</p>   
+      <p> Bootstrap incluye una rejila o retícula fluída pensada para móviles y que cumple con el diseño web responsive. Esta retícula crece hasta 12 columnas a medida que crece el tamaño de la pantalla del dispositivo. Bootstrap incluye clases CSS para utilizar la rejilla directamente en tus diseños y también define mixins de LESS para que puedas crear diseños más semánticos.</p>
+    </section>
+
+<section  class="container  ">
+    <form>
+      <h1 class="display-4 mb-5">Contact us</h1>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputState">State</label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputZip">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Check me out
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
+  </section>
+    
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
